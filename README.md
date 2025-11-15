@@ -56,7 +56,7 @@ El proyecto consiste en una hoja de vida digital interactiva, diseñada para pre
 
 * Botón flotante de WhatsApp para contacto directo.
 
-* Cada sección fue construida utilizando semántica HTML adecuada, estilos CSS modulares y scripts JavaScript para mejorar la experiencia del usuario.
+Cada sección fue construida utilizando semántica HTML adecuada, estilos CSS modulares y scripts JavaScript para mejorar la experiencia del usuario.
 
 
 ✨ Características Técnicas
