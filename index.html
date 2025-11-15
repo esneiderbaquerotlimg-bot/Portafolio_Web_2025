@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Julian Esneider — Hoja de Vida Interactiva</title>
+  <meta name="description" content="Hoja de vida y portafolio — Julian Gutierrez Baquero">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- SKIP LINK -->
+  <a class="skip-link" href="#main">Saltar al Contenido</a>
+
+  <!-- HEADER: foto, nombre, datos mínimos y barra de contacto compacta -->
+<header class="site-header" role="banner">
+    <div class="header-inner container">
+      <!-- Perfil -->
+      <div class="profile">
+        <img src="assets/img/foto_perfil.jpg" alt="Foto de Julian Gutierrez" class="profile-pic">
+        <div class="profile-text">
+          <h1>Julian Esneider Gutierrez Baquero</span></h1>
+          <p class="role">Técnica Profesional en Programación de Aplicaciones de Software — UCompensar</p>
+          <p class="micro">· Proactivo · Orientado a Resultados · Desarrollo Web y Bases de Datos</p>
+        </div>
+      </div>
+
+      <!-- Contacto compacto (no encimado): teléfono destacado, correo con icono, WhatsApp como imagen que subirás -->
+      <div class="contact-compact">
+        <a class="pill phone" href="tel:+573044973053" title="Llamar a Julian"><span>+57 304 497 3053</span></a>
+        <a class="pill email" href="mailto:jg4681710@gmail.com" title="Escribir a Julian">
+          <!-- pequeño icono inline (estético) -->
+          <svg class="icon-mail" viewBox="0 0 24 24" aria-hidden="true">" d="M2 6v12h20V6l-10 6L2 6z"/></svg>
+          <span>jg4681710@gmail.com</span>
+        </a>
+
+        <!-- Aquí subes TU logo real de WhatsApp a assets/img/whatsapp.png -->
+        <a class="pill wa" 
+         href="https://wa.me/573044973053?text=Hola%20Julian,%20me%20gustaría%20ponerme%20en%20contacto%20contigo." 
+         target="_blank" 
+         rel="noopener" 
+         title="Contactar a Julian por WhatsApp">
+        <img src="assets/img/whatsapp.png" alt="WhatsApp" class="wa-icon">
+      </a>
+
+        <!-- Espacio visual temporal si se elimina el botón -->
+        <div style="width: 1px;"></div>
+
+
+    <!-- NAV: enlaces a páginas (navegación normal) -->
+    <nav class="main-nav container" aria-label="Navegación principal">
+      <a href="#main" class="nav-link">Inicio</a>
+      <a href="pages/educacion.html" class="nav-link">Educación</a>
+      <a href="pages/experiencia.html" class="nav-link">Experiencia</a>
+      <a href="#proyectos" class="nav-link">Proyectos</a>
+      <a href="pages/contacto.html" class="nav-link">Contacto</a>
+      <div id="callMessage" class="call-alert">
+    </nav>
+  </header>
+
+  <!-- MAIN: secciones detalladas (largo, con espacio entre secciones) -->
+  <main id="main" class="container">
+    <!-- ========================== -->
+<!-- SECCIÓN DE PRESENTACIÓN (HERO) -->
+<!-- ========================== -->
+<section class="panel hero">
+  <div class="hero-left">
+    <h1 class="hero-title">Transformo Ideas en <span class="highlight">Soluciones Digitales Reales</span></h1>
+    <p class="lead">
+      Estudiante de la <strong>Fundación Universitaria Compensar</strong> en la carrera <em>Técnica Profesional en Programación de Aplicaciones de Software</em>.  
+      Cuento con experiencia académica en <strong>Java, SQL, HTML, CSS y JavaScript</strong>, aplicando principios de <em>programación orientada a objetos</em> y buenas prácticas de desarrollo.
+      Mi enfoque se centra en crear aplicaciones limpias, funcionales y fáciles de usar.
+    </p>
+
+    <div class="cta-group">
+      <a href="#proyectos" class="btn primary">🚀 Ver Proyectos</a>
+      <button class="btn outline" id="openModalBtn">📧 Enviar Mensaje</button>
+      <a class="btn ghost" href="pages/experiencia.html">💼 Ver Experiencia</a>
+    </div>
+  </div>
+
+ <aside class="hero-right"> 
+  <div class="profile-card"> 
+    <img src="assets/img/banner.jpg" alt="Banner Julian Gutierrez" class="banner-img"> 
+    <img src="assets/img/foto_perfil.jpg" alt="Foto de Julian Gutierrez" class="card-photo"> 
+    <div class="card-body"> <h3>Julian Esneider Gutierrez Baquero</h3>
+    <p class="muted">Técnica Profesional en Programación de Aplicaciones de Software - UCompensar</p> 
+    <ul class="quick-info"> <li>
+    <strong>Especialidad:</strong> Desarrollo Web y Bases de Datos</li> <li>
+    <strong>Enfoque:</strong> Aplicaciones funcionales y diseño centrado en el usuario</li><li>
+    <strong>Ubicación:</strong> Bogotá, Colombia</li> 
+  </ul> 
+</div>  
+</div> 
+</aside> 
+</section>
+
+    <!-- Habilidades -->
+    <section id="skills" class="panel">
+  <h2>💻 Habilidades Técnicas</h2>
+  <p class="intro">
+    A lo largo de mi formación he fortalecido competencias técnicas que me permiten diseñar, desarrollar y mantener aplicaciones web y de escritorio, aplicando buenas prácticas de programación, trabajo colaborativo y pensamiento lógico.
+  </p>
+
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h4>Frontend</h4>
+      <p>Diseño y maquetación de interfaces web usando <strong>HTML5</strong>, <strong>CSS3</strong> y <strong>JavaScript (ES6+)</strong>. Creación de sitios modernos, responsivos y accesibles.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Backend y Bases de Datos</h4>
+      <p>Desarrollo de aplicaciones con <strong>Java</strong> y conexión a bases de datos relacionales como <strong>PostgreSQL</strong> y <strong>MySQL</strong>. Creación de consultas SQL, modelos ER y procedimientos almacenados.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Control de Versiones</h4>
+      <p>Manejo de <strong>Git y GitHub</strong> para control de versiones, trabajo colaborativo y despliegue de sitios web mediante <strong>GitHub Pages</strong>.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Herramientas y Entornos</h4>
+      <p>Uso de <strong>Visual Studio Code</strong>, <strong>Apache NetBeans</strong> y herramientas online para diseño y pruebas. Familiaridad con <strong>Lucidchart</strong>, <strong>XAMPP</strong> y <strong>PostgreSQL PGAdmin</strong>.</p>
+    </div>
+
+    <div class="skill-card">
+      <h4>Diseño y Creatividad</h4>
+      <p>Conocimientos en <strong>Marketing Digital</strong> y <strong>Turismo Digital</strong> para integrar el diseño web con la comunicación visual y la experiencia del usuario (UX/UI).</p>
+    </div>
+  </div>
+</section>
+
+    <!-- Cronología / Línea de tiempo -->
+<section id="timeline" class="panel">
+  <h2>📗 Cronología Académica y Profesional</h2>
+  <ol class="timeline">
+    <li>
+      <strong>5 de diciembre de 2023:</strong> Graduación como <em>Bachiller académico</em>. Durante esta etapa despertó mi interés por la programación, la innovación y la tecnología digital.
+    </li>
+
+    <li>
+      <strong>5 de Febrero de 2024:</strong> Inicio de estudios en la <em>Técnica Profesional en Programación de Aplicaciones de Software</em> en la </strong> Fundación Universitaria Compensar, adquiriendo bases sólidas en <em>Java, bases de datos (PostgreSQL y MySQL), diseño web</em> y programación orientada a objetos.
+    </li>
+
+    <li>
+      <strong>5 de Agosto de 2024:</strong> Desarrollo de proyectos académicos en <strong>Java</strong> y <strong>HTML, CSS y JavaScript</strong>.  
+      Creación del sistema de inventario y ventas, aplicación de conceptos de POO, uso de GitHub y despliegue de sitios web.
+    </li>
+
+    <li>
+      <strong>5 de Febrero de 2025:</strong> Formación continua con cursos de <em>Oracle Java Fundamentals</em>, <em>Marketing Digital (Uniminuto)</em>, <em>Primeros Auxilios (FUSDEC)</em> y <em>Turismo Digital</em>, aplicando tecnología en la promoción turística y el diseño de experiencias digitales.
+    </li>
+  </ol>
+</section>
+
+    <!-- Proyectos: aquí el botón "Ver" abrirá modal con detalle -->
+    <section id="proyectos" class="panel">
+      <h2>Proyectos</h2>
+      <div class="projects-grid">
+
+    <article class="project-card">
+      <img src="assets/img/proyecto1.jpg" alt="Sistema de Ventas">
+      <h3>Sistema de Ventas (Académico)</h3>
+      <p>Aplicación académica para registrar, consultar y reportar ventas. Incluye control de inventario, CRUD y reportes dinámicos.</p>
+      <button class="btn small ver-btn" data-proyecto="ventas">Ver Detalles</button>
+    </article>
+
+    <article class="project-card">
+      <img src="assets/img/proyecto2.jpg" alt="Gestión de Inventario">
+      <h3>Gestión de Inventario</h3>
+      <p>Sistema desarrollado para registrar entradas, salidas y productos, con manejo de categorías y consultas SQL.</p>
+      <button class="btn small ver-btn" data-proyecto="inventario">Ver Detalles</button>
+    </article>
+
+    <article class="project-card">
+      <img src="assets/img/proyecto3.jpg" alt="Portafolio Web">
+      <h3>Portafolio Web Personal</h3>
+      <p>Sitio diseñado con HTML, CSS y JavaScript para mostrar mis proyectos, experiencia y habilidades profesionales.</p>
+      <button class="btn small ver-btn" data-proyecto="portafolio">Ver Detalles</button>
+    </article>
+
+    <article class="project-card">
+      <img src="assets/img/proyecto4.jpg" alt="Tienda Online">
+      <h3>Tienda Online</h3>
+      <p>Prototipo de comercio electrónico con carrito de compras, filtros dinámicos y conexión simulada a base de datos.</p>
+      <button class="btn small ver-btn" data-proyecto="tienda">Ver Detalles</button>
+    </article>
+
+  </div>
+</section>
+
+<!-- ======================= -->
+<!-- MODAL DE DETALLES -->
+<!-- ======================= -->
+<div id="modal-proyecto" class="modal-proyecto" aria-hidden="true">
+  <div class="modal-content">
+    <button class="close-modal">&times;</button>
+    <h3 id="modal-title">Título del Proyecto</h3>
+    <img id="modal-img" src="" alt="Imagen del proyecto">
+    <p id="modal-desc"></p>
+    <ul id="modal-list"></ul>
+  </div>
+</div>
+
+
+    <!-- Contacto grande con aside: formulario y datos rápidos -->
+    <section id="contacto" class="panel">
+      <h2>Contacto & Envío</h2>
+      <div class="contact-grid">
+        <form id="contactForm" class="contact-form" novalidate>
+          <label for="name">Nombre</label>
+          <input id="name" name="name" placeholder="Tu nombre completo" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="tu@correo.com" required value="jg4681710@gmail.com">
+
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="6" placeholder="Escribe tu mensaje..." required></textarea>
+
+          <div class="form-actions" style="display:flex; gap:10px; justify-content:flex-end; align-items:center; margin-top:10px;">
+          <button class="btn primary" type="submit">Enviar</button>
+          <button class="btn ghost" type="button" id="resetForm">Limpiar</button>
+
+          <a href="https://wa.me/573044973053?text=Hola%20Julian,%20me%20gustaría%20ponerme%20en%20contacto%20contigo." 
+           target="_blank" 
+           rel="noopener" 
+           class="btn whatsapp" 
+           title="Contactar a Julian por WhatsApp">
+           <img src="assets/img/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+         </a>
+      </div>
+
+          <p class="form-note">* Formulario Validado Localmente.</p>
+        </form>
+
+        <aside class="contact-aside">
+          <h3>Contacto Rápido</h3>
+          <p><strong>Teléfono:</strong> <span class="phone-highlight">+57 304 497 3053</span></p>
+          <p><strong>Email:</strong> <span class="mail-highlight">jg4681710@gmail.com</span></p>
+          <a href="https://github.com/tuusuario" target="_blank" class="github-link">
+          <img src="assets/img/github-logo.png" alt="GitHub" class="github-icon">Ver Perfil</a></p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- placeholder for pages loaded dynamically (if needed) -->
+    <div id="dynamicContent" aria-live="polite"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 Julian Esneider Gutierrez Baquero - Portafolio Digita</p>
+    </div>
+  </footer>
+
+  <!-- Modal detalle proyecto -->
+  <div id="detailModal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="detailTitle">
+    <div class="modal-panel" role="document">
+      <button class="modal-close" aria-label="Cerrar">&times;</button>
+      <h3 id="detailTitle">Detalle</h3>
+      <div id="detailBody"></div>
+    </div>
+  </div>
+
+<!-- Modal de contacto rápido --> 
+<div id="modal" class="modal" aria-hidden="true" role="dialog" aria-labelledby="modalTitle">
+  <div class="modal-panel" role="document">
+    <button class="modal-close" aria-label="Cerrar">&times;</button>
+    <h3 id="modalTitle">Enviar Mensaje a Julian</h3>
+
+    <form id="modalForm">
+      <input type="text" id="mName" placeholder="Tu nombre" required>
+      <input type="email" id="mEmail" placeholder="Tu correo" required>
+      <textarea id="mMsg" placeholder="Mensaje..." rows="4" required></textarea>
+
+      <!-- Botones de acción -->
+      <div class="form-actions" style="display:flex; gap:10px; justify-content:flex-end; align-items:center; margin-top:10px;">
+  <button class="btn primary" type="submit">Enviar</button>
+  <button class="btn ghost" type="button" id="resetForm">Limpiar</button>
+
+  <!-- ✅ Botón WhatsApp SOLO con icono -->
+  <a href="https://wa.me/573044973053" target="_blank" rel="noopener" class="btn whatsapp" title="Contactar por WhatsApp">
+    <img src="assets/img/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+  </a>
+</div>
+
+<!-- ======================= -->
+<!-- MODAL DE CONTACTO MEJORADO -->
+<!-- ======================= -->
+<div id="modal" class="modal" aria-hidden="true" role="dialog">
+  <div class="modal-panel">
+    
+    <button class="modal-close">&times;</button>
+
+    <h3 class="modal-title">Enviar Mensaje a Julian</h3>
+
+    <form id="modalForm">
+
+      <div class="modal-input-group">
+        <label>Tu nombre</label>
+        <input type="text" id="mName" placeholder="Escribe tu nombre..." required>
+      </div>
+
+      <div class="modal-input-group">
+        <label>Tu correo</label>
+        <input type="email" id="mEmail" placeholder="ejemplo@gmail.com" required>
+      </div>
+
+      <div class="modal-input-group">
+        <label>Mensaje</label>
+        <textarea id="mMsg" placeholder="Escribe tu mensaje..." rows="4" required></textarea>
+      </div>
+
+      <div class="modal-buttons">
+        <button class="btn-send" type="submit">Enviar</button>
+        <button class="btn-clear" type="button" id="modalCancel">Limpiar</button>
+
+        <!-- ICONO DE WHATSAPP -->
+        <a href="https://wa.me/573044973053?text=Hola%20Julian,%20quiero%20más%20información"
+           target="_blank" class="btn-whatsapp">
+          <img src="assets/img/whatsapp.png" class="ws-icon"> 
+        </a>
+      </div>
+
+    </form>
+
+  </div>
+</div>
+
+
+  <script src="js/app.js" defer></script>
+</body>
+</html>

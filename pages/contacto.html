@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contacto — Julian Gutiérrez</title>
+
+  <!-- IMPORTA styles.css (esta línea NO toca la página principal) -->
+  <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+
+  <div class="contact-page">
+
+    <h1 class="contact-title">💬 Contacto</h1>
+
+    <p class="intro">
+      Aquí puedes comunicarte conmigo de manera rápida y directa.
+    </p>
+
+    <!-- TELEFONO -->
+<div class="contact-item phone" id="phoneBox">
+  <span class="emoji">📱</span>
+  <div>
+    <strong>Teléfono:</strong>
+    <span class="text">+57 304 497 3053</span>
+  </div>
+</div>
+
+    <!-- EMAIL -->
+<div class="contact-item" onclick="onEmailClick()">
+  <span class="emoji">📧</span>
+  <div>
+    <strong>Email:</strong>
+    <span class="text">jg4681710@gmail.com</span>
+  </div>
+</div>
+
+
+    <!-- MENSAJE FINAL -->
+    <div class="soon">
+      ✨ Pronto agregaré más contenido y nuevas formas de contacto.
+    </div>
+
+  </div>
+
+  <!-- Botón Volver al Inicio -->
+  <a class="back-btn" href="../index.html">← Volver al Inicio</a>
+
+  <script>
+  // MENSAJE DE LLAMADA
+  function showCallMessage() {
+    const msg = document.getElementById("callMessage");
+    msg.classList.add("show");
+    setTimeout(() => msg.classList.remove("show"), 3500);
+  }
+
+  // CLICK EN TELÉFONO
+  function onPhoneClick() {
+    showCallMessage();
+    setTimeout(() => {
+      window.location.href = "tel:+573044973053";
+    }, 1200);
+  }
+
+  // CLICK EN EMAIL → IR A CONTACTO & ENVÍO EN INDEX
+  function onEmailClick() {
+    window.location.href = "../index.html#contacto";
+  }
+</script>
+
+<div id="callMessage" class="call-alert">
+  <span class="sound-wave">🔊</span>
+  <span class="sound-wave">🔊</span>
+  <span class="sound-wave">🔊</span>
+  <br>
+
+ <div id="callMessage" class="call-alert">
+  🔊 La llamada está sonando… Por favor espera.
+</div>
+
+
+<script>
+  const phoneBox = document.getElementById("phoneBox");
+  const callMsg = document.getElementById("callMessage");
+
+  phoneBox.addEventListener("click", function(e) {
+    e.preventDefault(); // Evita que abra app de llamadas
+
+    callMsg.style.display = "block";
+
+    // Sonido/onda animada (tres vibraciones)
+    callMsg.innerHTML = "🔊 La llamada está sonando…";
+
+    let count = 0;
+    const interval = setInterval(() => {
+      callMsg.innerHTML = "🔊".repeat(count + 1) + " Llamando…";
+      count++;
+
+      if (count === 3) clearInterval(interval);
+    }, 500);
+
+    // Ocultar después de 3 segundos
+    setTimeout(() => {
+      callMsg.style.display = "none";
+    }, 3000);
+  });
+</script>
+
+</body>
+</html>

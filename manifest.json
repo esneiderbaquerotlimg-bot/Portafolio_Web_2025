@@ -1,0 +1,16 @@
+{
+  "name": "Hoja de Vida - Julian Esneider",
+  "short_name": "JulianCV",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0b8a3e",
+  "icons": [
+    {
+      "src": "assets/img/foto_perfil.jpg",
+      "sizes": "192x192",
+      "type": "image/jpeg"
+    }
+  ]
+}
+
