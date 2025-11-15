@@ -1,24 +1,25 @@
-🌐 Hoja de Vida Interactiva — Julian Esneider
+🌐 Hoja de Vida Interactiva - Julian Esneider Gutierrez Baquero
 
-Este repositorio contiene el desarrollo completo del proyecto Hoja de Vida Interactiva, elaborado para la asignatura Introducción a los Lenguajes de Internet. El sitio web presenta la información profesional del estudiante a través de una estructura organizada, navegación intuitiva y componentes desarrollados con HTML5, CSS3 y JavaScript.
+Este repositorio contiene el desarrollo completo del proyecto Hoja de Vida Interactiva, elaborado para la asignatura Introducción a los Lenguajes de Internet.
+El sitio web presenta la información profesional del estudiante mediante una estructura organizada, navegación intuitiva y componentes construidos con HTML5, CSS3 y JavaScript, siguiendo buenas prácticas de diseño y desarrollo web.
 
 📁 Estructura del Proyecto
 
 El repositorio está compuesto por los siguientes elementos principales:
 
-Archivos base
+📄 Archivos Base
 
-index.html — Página Principal del Sitio.
+index.html - Página principal del sitio.
 
-css/styles.css — Hoja de Estilos Principal.
+css/styles.css - Hoja de estilos principal.
 
-js/app.js — Lógica de Navegación y Carga Dinámica.
+js/app.js - Lógica de navegación y carga dinámica.
 
-js/sw.js — Service Worker para Funcionalidad Offline (opcional).
+js/sw.js - Service Worker para funcionalidad offline (opcional).
 
-Páginas Internas
+📂 Páginas Internas
 
-Pages/contacto.html
+pages/contacto.html
 
 pages/educacion.html
 
@@ -26,51 +27,53 @@ pages/experiencia.html
 
 pages/proyectos.html
 
-Recursos
+🖼️ Recursos
 
-assets/img/ — Carpeta de Imágenes Utilizadas en el Sitio.
+assets/img/ - Carpeta de imágenes utilizadas en el sitio.
+
+assets/docs/ - Documentos adicionales (como el CV en PDF).
 
 📌 Descripción del Sitio Web
 
-El proyecto consiste en una hoja de vida digital diseñada para presentar información personal y profesional de manera clara y atractiva. El sitio incluye:
+El proyecto consiste en una hoja de vida digital interactiva, diseñada para presentar información personal y profesional de manera clara, atractiva y funcional. Incluye:
 
-Sección Principal con Perfil e Información General.
+Sección principal con perfil e información general.
 
-Formación Académica.
+Formación académica estructurada.
 
-Experiencia Profesional.
+Experiencia laboral organizada.
 
-Proyectos Desarrollados.
+Proyectos desarrollados con enlaces y descripciones.
 
-Navegación Entre Páginas con Menús y Botones.
+Navegación fluida entre páginas mediante menús y botones.
 
-Integración de Multimedia, Iconos y Enlaces.
+Integración de iconos, enlaces externos y elementos multimedia.
 
-Botón Flotante de WhatsApp para Contacto Directo.
+Botón flotante de WhatsApp para contacto directo.
 
-Cada sección ha sido construida con buenas prácticas de maquetación, semántica HTML y estilo CSS modular.
+Cada sección fue construida utilizando semántica HTML adecuada, estilos CSS modulares y scripts JavaScript para mejorar la experiencia del usuario.
 
 ✨ Características Técnicas
 
-Diseño Responsive, Optimizado para Dispositivos Móviles y Escritorio.
+Diseño responsive, adaptable a móvil, tablet y escritorio.
 
-Carga Dinámica Parcial Mediante JavaScript para Mejorar Fluidez.
+Carga dinámica parcial mediante JavaScript para agilizar la navegación.
 
-Uso de Service Worker como Implementación Opcional de PWA Básica.
+Implementación opcional de Service Worker para experiencia offline básica.
 
-Validación en el Formulario de Contacto.
+Validación local del formulario de contacto.
 
-Estructura Organizada por Carpetas para Facilitar Mantenimiento y Escalabilidad.
+Estructura modular por carpetas para facilitar mantenimiento y escalabilidad.
 
-Compatibilidad con GitHub Pages para Despliegue Público.
+Compatibilidad y despliegue público mediante GitHub Pages.
 
 🚀 Despliegue
 
-El proyecto está desplegado en GitHub Pages a través de la rama main, permitiendo acceso público al sitio desde cualquier dispositivo con conexión a internet.
+El proyecto se encuentra desplegado a través de GitHub Pages en la rama main, permitiendo el acceso público desde cualquier dispositivo con conexión a internet.
 
 👨‍💻 Autor
 
 Julian Esneider Gutierrez Baquero
-Estudiante — Fundación Universitaria Compensar
+Estudiante - Fundación Universitaria Compensar
 Programa: Técnica Profesional en Programación de Aplicaciones de Software
-Correo: esneider.baquero.tlimg@gmail.com
+📧 Correo: esneider.baquero.tlimg@gmail.com
